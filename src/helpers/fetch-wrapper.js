@@ -53,14 +53,31 @@ function handleResponse(response) {
     return response.text().then(text => {
         const data = text && JSON.parse(text);
         
+        // 28-12-2025 - Log status code for debugging
+        // console.log('Status code: ' + response.status);
+
         if (!response.ok) {
             const { user, logout } = useAuthStore();
             if ([401, 403].includes(response.status) && user) {
+                
                 // auto logout if 401 Unauthorized or 403 Forbidden response returned from api
+                // Logout message for debugging
+                console.log('Auto logout due to 401/403 response');
                 logout();
             }
+            
+            // 28-12-2025 - Modified error handling to show status code if User Credentials are wrong
+            //const error = (data && data.message) || response.statusText;
+            //const error = (data && data.message) || response.statusText || response.status;
+            
+            let error = "";
+            // 28-12-2025 - Modified error handling to validate status code if User Credentials are wrong
+            if( response.status.equals('')) 
+                error = (data && data.message) || response.statusText;
+            else
+                error = (data && data.message) || response.statusText || response.status;
+            console.log('Status code: ' + error);
 
-            const error = (data && data.message) || response.statusText;
             return Promise.reject(error);
         }
 
