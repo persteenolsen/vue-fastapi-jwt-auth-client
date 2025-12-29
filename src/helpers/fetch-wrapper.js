@@ -53,8 +53,8 @@ function handleResponse(response) {
     return response.text().then(text => {
         const data = text && JSON.parse(text);
         
-        // 28-12-2025 - Log status code for debugging
-        // console.log('Status code: ' + response.status);
+        // 29-12-2025 - Log status code for debugging
+        console.log('1) Status code by response.status: ' + response.status);
 
         if (!response.ok) {
             const { user, logout } = useAuthStore();
@@ -76,8 +76,10 @@ function handleResponse(response) {
                 error = (data && data.message) || response.statusText;
             else
                 error = (data && data.message) || response.statusText || response.status;
-            console.log('Status code: ' + error);
-
+            
+            // Debugging logs for error status
+            // console.log('2) Status code by response.statusText: ' + response.statusText);
+           
             return Promise.reject(error);
         }
 

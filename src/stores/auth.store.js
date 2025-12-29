@@ -15,8 +15,8 @@ export const useAuthStore = defineStore({
 
         async login( username, password) {
             
-            // 28-12-2025 - The response will return access token + type
-            const user = await fetchWrapper.post(`${baseUrl}/token`, { username, password });
+            // 28-12-2025 - The response will return access token + type + username
+            const user = await fetchWrapper.post(`${baseUrl}/token-spa`, { username, password });
 
             // update pinia state
             this.user = user;

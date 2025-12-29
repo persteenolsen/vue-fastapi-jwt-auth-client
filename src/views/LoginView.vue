@@ -23,7 +23,7 @@ function onSubmit(values, { setErrors }) {
         <h3>Vue 3 SPA + FastAPI Web API doing JWT Authentication</h3>
         
         <br/><br />
-        Last updated: 28-12-2025<br /><br />
+        Last updated: 29-12-2025<br /><br />
         <div class="alert alert-info">
 
             Username: testuser<br />
