@@ -4,7 +4,7 @@ Vue 3 + Pinia - JWT Authentication towards a FastAPI Web API
 
 # Last updated
 
-- 15-01-2026
+- 27-01-2026
 
 # Tech used for this Web Client
 
