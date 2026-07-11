@@ -1,14 +1,14 @@
-# Vue 3 + Pinia + JWT Authentication Client
+# 🔐 Vue 3 + Pinia + JWT Authentication Client
 
 A Vue 3 frontend for JWT authentication against a FastAPI backend.  
 Includes login, registration, token handling, and state management using Pinia.
 
-Last updated:
+**Last updated:**
 - 14-04-2026
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Node.js 18.19.1
 - Vue 3 (frontend framework)
@@ -22,7 +22,7 @@ Last updated:
 
 ---
 
-## Features
+## ✨ Features
 
 - User registration and login
 - JWT authentication with FastAPI backend
@@ -33,9 +33,9 @@ Last updated:
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
-### 1. Prerequisites
+### 1️⃣ Prerequisites
 
 Make sure you have:
 
@@ -44,13 +44,13 @@ Make sure you have:
 
 ---
 
-### 2. Install dependencies
+### 2️⃣ Install dependencies
 
 - npm install
 
 ---
 
-## Run the Application (Development)
+## 💻 Run the Application (Development)
 
 Start the development server:
 
@@ -62,7 +62,7 @@ The app will be available at:
 
 ---
 
-## Production Build
+## 📦 Production Build
 
 Create an optimized production build:
 
@@ -70,7 +70,7 @@ Create an optimized production build:
 
 ---
 
-## Preview Production Build
+## 👀 Preview Production Build
 
 Test the production build locally:
 
@@ -82,7 +82,7 @@ Available at:
 
 ---
 
-## Backend Connection
+## 🔗 Backend Connection
 
 This frontend is designed to work with a FastAPI backend using JWT authentication.
 
@@ -96,7 +96,7 @@ Typical backend endpoints used:
 
 ---
 
-## Project Notes
+## 📝 Project Notes
 
 - Authentication state is handled via Pinia store
 - JWT token is stored and used for API requests
@@ -105,7 +105,7 @@ Typical backend endpoints used:
 
 ---
 
-## Development Tools
+## 🧰 Development Tools
 
 - ESLint is used to maintain code quality
 - Vite provides fast HMR and build tooling
