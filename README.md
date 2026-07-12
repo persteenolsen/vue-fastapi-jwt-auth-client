@@ -10,7 +10,8 @@ Includes login, registration, token handling, and state management using Pinia.
 
 ## ✨ Features
 
-- User registration and login
+- Vue 3 frontend framework
+- Login and logout
 - Silent login possible if a valid JWT exists in localStorage
 - JWT authentication with FastAPI backend
 - Persistent auth state using Pinia
