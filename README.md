@@ -8,6 +8,18 @@ Includes login, registration, token handling, and state management using Pinia.
 
 ---
 
+## ✨ Features
+
+- User registration and login
+- Silent login possible if a valid JWT exists in localStorage
+- JWT authentication with FastAPI backend
+- Persistent auth state using Pinia
+- Form validation (VeeValidate + Yup)
+- Protected route handling (via auth state)
+- Clean modular Vue 3 structure
+
+---
+
 ## 🛠️ Tech Stack
 
 - Node.js 18.19.1
@@ -19,17 +31,6 @@ Includes login, registration, token handling, and state management using Pinia.
 - Yup (schema validation)
 - Volta (Node version management)
 - VS Code (development environment)
-
----
-
-## ✨ Features
-
-- User registration and login
-- JWT authentication with FastAPI backend
-- Persistent auth state using Pinia
-- Form validation (VeeValidate + Yup)
-- Protected route handling (via auth state)
-- Clean modular Vue 3 structure
 
 ---
 
