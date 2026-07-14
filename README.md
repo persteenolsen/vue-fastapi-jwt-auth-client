@@ -1,10 +1,11 @@
-# 🔐 Vue 3 + Pinia + JWT Authentication Client
+# 🔐 Vue 3 + Pinia JWT Authentication Client (FastAPI Integration)
 
-A Vue 3 frontend for JWT authentication against a FastAPI backend.  
-Includes login, registration, token handling, and state management using Pinia.
+A Vue 3 frontend application demonstrating authentication using JWT access tokens.
+
+This project is designed as a companion client for a FastAPI backend implementing JWT authentication.
 
 **Last updated:**
-- 14-04-2026
+- 14-07-2026
 
 ---
 

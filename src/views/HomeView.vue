@@ -17,7 +17,7 @@ usersStore.getAll();
 
         <h1>Hi {{authUser?.username}}!</h1>
 
-        <p>You're logged in by Vue 3 + FastAPI + JWT</p>
+        <p>You're logged in by Vue 3 using JWT</p>
 
         <h3>Users served from a secure api endpoint:</h3>
         <ul v-if="users.length">
